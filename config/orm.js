@@ -1,4 +1,3 @@
-// set up the controller for the app, including routes
+// set up a custom object-relational mapping to MySQL database and export for use elsewhere
 
-var express = require("express");
-var router = express.Router();
+var connection = require("../config/connection.js");
